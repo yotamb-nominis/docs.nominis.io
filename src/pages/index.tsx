@@ -18,7 +18,7 @@ function HomepageHeader() {
           Intelligent crypto compliance. Faster insights, smarter decisions.
         </p>
         <div className={styles.heroCtas}>
-          <Link className={clsx('button button--lg', styles.ctaPrimary)} to="/intro">
+          <Link className={clsx('button button--lg', styles.ctaPrimary)} to="/docs/intro">
             Quick Start
           </Link>
         </div>

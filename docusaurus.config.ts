@@ -71,6 +71,8 @@ const config: Config = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/white_transparent.png',
+        href: 'https://www.nominis.io',  // external site
+        target: '_blank',                // optional: open in new tab
       },
       items: [
         {

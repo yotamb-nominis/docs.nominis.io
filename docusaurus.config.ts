@@ -67,21 +67,29 @@ const config: Config = {
       },
     },
     navbar: {
-      title: 'Home',
+      // Don't let the title share the logo link
+      title: '', // or remove this line entirely
+
       logo: {
         alt: 'Nominis',
         src: 'img/white_transparent.png',
-        href: 'https://www.nominis.io',  // external site
-        target: '_blank',                // optional: open in new tab
+        href: 'https://www.nominis.io', // logo -> marketing site
+        target: '_blank',
       },
+
       items: [
+        // Explicit Home item -> docs homepage
+        {
+          to: '/',             // documentation homepage (your landing page)
+          label: 'Home',
+          position: 'left',
+        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Endpoints',
         },
-
       ],
     },
     footer: {

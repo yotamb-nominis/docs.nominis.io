@@ -69,7 +69,7 @@ const config: Config = {
     navbar: {
       title: 'Home',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Nominis',
         src: 'img/white_transparent.png',
         href: 'https://www.nominis.io',  // external site
         target: '_blank',                // optional: open in new tab
